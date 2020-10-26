@@ -708,6 +708,8 @@ THE SOFTWARE.
         correctly handle the release flag. This will replace both source and target
         once we drop support for JDK 8 that only recognize source and target. -->
         <maven.compiler.release>${java.level}</maven.compiler.release>
+	<maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
       </properties>
       <activation>
         <jdk>11</jdk>
