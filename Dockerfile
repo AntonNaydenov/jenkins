@@ -12,6 +12,7 @@ COPY test/ /jenkins/src/test/
 #COPY test-jdk8/ /jenkins/src/test-jdk8/
 COPY war/ /jenkins/src/war/
 COPY *.xml /jenkins/src/
+COPY pom.xml /jenkins/src/
 COPY LICENSE.txt /jenkins/src/LICENSE.txt
 COPY licenseCompleter.groovy /jenkins/src/licenseCompleter.groovy
 COPY show-pom-version.rb /jenkins/src/show-pom-version.rb
