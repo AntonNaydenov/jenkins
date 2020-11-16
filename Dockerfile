@@ -19,7 +19,6 @@ COPY licenseCompleter.groovy /jenkins/src/licenseCompleter.groovy
 COPY show-pom-version.rb /jenkins/src/show-pom-version.rb
 
 WORKDIR /jenkins/src/
-mvn  clean 
 RUN mvn -DskipTests clean package --batch-mode
 
 # The image is based on the previous weekly, new changes in jenkinci/docker are not applied
