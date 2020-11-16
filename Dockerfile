@@ -9,7 +9,7 @@ COPY core/ /jenkins/src/core/
 COPY src/ /jenkins/src/src/
 COPY test/ /jenkins/src/test/
 # COPY test-pom/ /jenkins/src/test-pom/
-COPY test-jdk8/ /jenkins/src/test-jdk8/
+#COPY test-jdk8/ /jenkins/src/test-jdk8/
 COPY war/ /jenkins/src/war/
 COPY *.xml /jenkins/src/
 COPY LICENSE.txt /jenkins/src/LICENSE.txt
